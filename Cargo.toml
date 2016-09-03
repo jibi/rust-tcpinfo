@@ -1,0 +1,16 @@
+[package]
+name = "tcpstat"
+version = "0.0.1"
+authors = ["Gilberto Bertin <me@jibi.io>"]
+
+[lib]
+name = "tcpstat"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
+lazy_static = "0.2.2"
+
+[build-dependencies]
+bindgen = "0.26.3"
+
